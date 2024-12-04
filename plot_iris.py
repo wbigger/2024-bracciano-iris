@@ -2,7 +2,7 @@ from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 import numpy as np
 import matplotlib.pyplot as plt
-import pprint
+
 # Caricamento del dataset
 iris = load_iris()
 X = iris.data
